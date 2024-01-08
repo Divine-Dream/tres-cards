@@ -6,6 +6,26 @@
 }
 
 .card1, .card2, .card3 {
-  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 7px;
   width: 30%;
+}
+
+.color-wheel, .chat {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-wheel img, .chat img {
+  width: 3em;
+  height: 3em;
+}
+
+.arrow {
+  display: flex;
+  justify-content: right;
+  height: 35px;
+  padding: 10px;
 }
